@@ -1,3 +1,4 @@
+
 object Chapter3 {
 
 sealed trait List[+A]
@@ -207,7 +208,6 @@ object Tree {
 		val list = scala.collection.immutable.List[Int](1,2,3,4)
 		val sub = scala.collection.immutable.List[Int](8)
 		val check = hasSubsequence(list,sub)
-			println(check)
 	}
 
 }
